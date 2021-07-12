@@ -1,0 +1,14 @@
+body {
+background: white;
+}
+#mainContent {
+    display: flex;
+}
+h1 {
+    text-align: center;
+}
+#searchBar {
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,1 @@
+This is Daniel's first project on git.  It is a coyp of the google homepage. Hopefully it looks enough like that so you don't need to read this to understand that! Also, none of these links work. Thanks!!

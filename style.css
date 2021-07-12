@@ -1,14 +1,21 @@
 body {
-background: white;
+    background: white;
 }
-#mainContent {
-    display: flex;
+h1 img{
+    display: block;
+    margin: 0px auto;
+    
 }
-h1 {
-    text-align: center;
+input#searchBar {
+    background-image: url("/images/search.png");
+    background-repeat: no-repeat;
+   /* background-position: 8px 9px; */
+    border-radius: 25px;
+    display: block;
+    margin: 0px auto;
 }
-#searchBar {
-    border-radius: 10px;
-    justify-content: center;
-    align-content: center;
+.searchButton {
+    display: block;
+    margin: 0px auto;
+    
 }

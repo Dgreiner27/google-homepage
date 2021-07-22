@@ -1,5 +1,7 @@
 body {
     background: white;
+    
+    max-height: 960px;
 }
 h1 img{
     display: block;
@@ -8,14 +10,53 @@ h1 img{
 }
 input#searchBar {
     background-image: url("/images/search.png");
-    background-repeat: no-repeat;
-   /* background-position: 8px 9px; */
+    background-repeat: no-repeat; 
+    background-position: 5px ;
     border-radius: 25px;
     display: block;
     margin: 0px auto;
+    width: 500px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .9rem;
 }
 .searchButton {
     display: block;
-    margin: 0px auto;
+    width: 200px;
+    margin: 10px auto;
+    padding: 5px;  
+}
+#pageWrap {
+   margin-top: 200px;
     
+}
+/*  Navigation Section  */
+
+#navbar ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#navbar li {
+    display: inline-block;
+}
+#navbar a {
+    display: block;
+}
+
+/*  Footer Section  */
+footer > ul {
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer > ul > li {
+    display: inline-block;
+}
+footer > a {
+    display: block;
 }

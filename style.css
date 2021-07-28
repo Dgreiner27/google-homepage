@@ -1,6 +1,5 @@
 body {
     background: white;
-    
     max-height: 960px;
 }
 h1 img{
@@ -26,37 +25,51 @@ input#searchBar {
     display: block;
     width: 200px;
     margin: 10px auto;
-    padding: 5px;  
+    padding: 8px;  
 }
 #pageWrap {
    margin-top: 200px;
     
 }
-/*  Navigation Section  */
+/* Navigation*/
 
 #navbar ul {
     list-style-type: none;
-    position: fixed;
-    top: 0;
-    right: 0;
+    display: flex;
+    justify-content: space-between;
+    
 }
 #navbar li {
-    display: inline-block;
+    display: inline;
+    
+    
 }
 #navbar a {
-    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
 }
 
-/*  Footer Section  */
-footer > ul {
+/* Footer */
+#pageBttm {
+    
+}
+#pageBttm ul {
     list-style-type: none;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-evenly;
+    height: 1.5rem;
 }
-footer > ul > li {
-    display: inline-block;
+#pageBttm li {
+    display: inline;
 }
-footer > a {
-    display: block;
+#pageBttm a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+
 }
